@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Island+Moments&family=Oswald:wght@200;300&family=Pacifico&family=Quicksand:wght@500;600;700&family=Quintessential&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+    }
+html{scroll-behavior: smooth;}
+body{box-sizing: border-box;margin: 0px;}
+/*-->Header<--*/
+/*Menu*/
+.hmenu{position: fixed;width: 100%; z-index: 999;}
+.hmenu ul>li{display: inline-block;}
+ .hmenu>ul>li>a{display: block;}
+ .hmenu>ul{padding: 0px;
+margin: 0px;list-style: none;
+background-color: #db6521;
+text-align: center;}
+.hmenu>ul>li>a{text-decoration: none;
+font-variant: small-caps;
+font-size: larger;
+color: white;
+padding: 0px 10px;
+line-height: 40px;}
+.hmenu>ul>li>a:hover{color: yellow;word-spacing: 3px}
+.hmenu>ul>li{position: relative;}
+.submenu{margin: 0px;padding: 0px;;box-shadow: 0px 0px 5px gray;
+position: absolute;display: none;}
+.submenu>li>a{display: block;
+line-height: 40px;
+text-decoration: none;
+font-variant: small-caps;
+color:#db6521;width: 200px;text-align: left;padding: 0px 10px;border-top: 1px solid silver;}
+.hmenu>ul>li:hover>.submenu{display: block;}
+.submenu>li>a:hover{background-color:#db6521;color: white;transition: ease-in 0.30s;
+    -moz-transition: ease-in 0.30s;-webkit-transition: ease-in 0.30s;}
+/*End Menu*/
+.dk>h3{padding-top: 100px;text-align: center;color:#F05454;font-size: 28px;}
+.dk{width: 60%;margin:  auto;}
+.dk .login{display: flex;
+flex-direction: column;}
+.dk .login input{padding: 15px;border: 1px solid gray;outline: none; margin-top: 20px;}
+.dk .login button{padding: 15px;margin-top: 20px;border: 1px solid gray;outline: none;
+    background-color:white;color: rgb(69, 151, 245);font-weight: bold;font-size: 15px;}
+.dk .login a{text-decoration: none;text-align: right;margin-top: 10px;}
+.dk .login button:hover{
+    background-color: rgb(36, 43, 43);color: white;transition: all 2s linear;
+}
+.dk .login input:focus{border: 3px solid #D9D7F1;}
+.dk .login input:hover{background-color: rgb(205, 245, 245);}
+.dk .login a{color: black;}
+.dk .login a b:hover{color:#F05454;}
+.cc{background-color:  aqua;
+    height: 300px;  }
+.cc .footer{float: left;;padding-left: 60px;margin: 0px 60px;text-align: center;text-align: justify;}
+.cc{color: black;}
+
+
+
